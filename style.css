@@ -1,45 +1,69 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   text-align: center;
 }
 
+/* Header */
 header {
-  padding: 80px 20px;
+  padding: 90px 20px;
 }
 
 header h1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 70px;
+  font-size: 72px;
+  margin-bottom: 10px;
 }
 
+.tagline {
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* Button */
 .btn {
   display: inline-block;
-  margin-top: 30px;
-  padding: 12px 35px;
-  border: 1px solid black;
+  margin-top: 35px;
+  padding: 12px 40px;
+  border: 1px solid white;
   text-decoration: none;
-  color: black;
+  color: white;
+  transition: 0.3s;
 }
 
 .btn:hover {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
 }
 
+/* Sections */
 section {
-  padding: 70px 20px;
+  padding: 80px 20px;
 }
 
 h2 {
   font-family: 'Great Vibes', cursive;
-  font-size: 45px;
+  font-size: 48px;
+  margin-bottom: 20px;
 }
 
+/* Services */
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Footer */
 footer {
-  border-top: 1px solid black;
-  padding: 20px;
+  border-top: 1px solid white;
+  padding: 25px;
   font-size: 12px;
 }
